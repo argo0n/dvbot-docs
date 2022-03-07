@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Dank Vibes Bot Documentation
 theme:
   name: material
   custom_dir: overrides
@@ -40,3 +40,9 @@ extra:
       name: argo0n - GitHub
 
 copyright: Copyright &copy; 2022 Argon
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
