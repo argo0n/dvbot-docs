@@ -1,6 +1,6 @@
 # Home
 
-* [Commands](commands/fun)
+* [Commands](commands/fun/fun)
 * [Slash commands](slash_commands)
 * [Other Features](others)
 
