@@ -1,4 +1,31 @@
 site_name: My Docs
 theme:
   name: material
-repo_url: 
+  custom_dir: overrides
+  features:
+    - header.autohide
+    - navigation.tabs
+    - navigation.tabs.sticky
+  logo: assets/rounded.png
+  favicon: assets/rounded.ico
+
+plugins:
+  - search
+  - redirects:
+      redirect_maps:
+        'fuck': 'index.md'
+  - git-revision-date
+repo_url: https://github.com/argo0n/dvbot-docs
+repo_name: argo0n/dvbot-docs
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/dankmemer
+      name: Dank Vibes - Discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/argo0n
+      name: argo0n - GitHub
+
+copyright: Copyright &copy; 2022 Argon

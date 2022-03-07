@@ -1,0 +1,6 @@
+mkdocs-redirects
+mkdocs
+mkdocs-material
+mkdocs-git-revision-date-plugin
+Pillow
+CairoSVG
