@@ -24,7 +24,7 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        'fuck': 'index.md'
+        'commands': 'commands/fun/fun.md'
   - git-revision-date
 repo_url: https://github.com/argo0n/dvbot-docs
 repo_name: argo0n/dvbot-docs

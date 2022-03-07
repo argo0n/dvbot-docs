@@ -12,9 +12,7 @@ Bans a participant who has not been banned yet, in a ban battle.
 
     * `member`: The target who you wish to ban.
 
-## `banbattle`
-
-### `start`
+## `banbattle start`
 
 Starts a banbattle.
 
@@ -27,7 +25,7 @@ You need atleast 2 participants to start a banbattle.
 
     `banbattle start`
 
-### `end`
+## `banbattle end`
 
 Ends a banbattle.
 
@@ -38,7 +36,7 @@ It'll kick all the members with `Spectator` and `Participants` role.
 !!! tip "Usage"
 
     `banbattle end`
-### `leaderboard`
+## `banbattle leaderboard`
 
 Shows the leaderboard for a banbattle.
 
