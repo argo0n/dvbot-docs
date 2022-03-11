@@ -1,5 +1,9 @@
 # Dank Memer Utilities
 
+Dank Vibes Bot provides [Dank Memer Reminders](#dankreminders) for you to be regularly reminded to perform tasks/run certain Dank Memer commands. This includes Drop reminders and Daily reminders.
+
+In addition, when you run `pls stream` and choose to begin to stream, Dank Vibes Bot will inform you of the current trending game (provided it has been set by a mod).
+
 ## `dankreminders`
 
 Shows your reminders for Dank Memer and allows you to enable/disable them through buttons.
