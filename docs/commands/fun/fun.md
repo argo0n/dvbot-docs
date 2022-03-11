@@ -5,7 +5,7 @@
 Fight a user, and you or them might get muted between 20 to 120 seconds, depending on who wins. 
 
 
-[Drinking a dumbfight potion](../../../commands/fun/item_games/#use) will rig your chance to win or lose the dumbfight.
+[Drinking a dumbfight potion](../../fun/item_games/#use) will rig your chance to win or lose the dumbfight.
 
 !!! tip "Usage"
     
