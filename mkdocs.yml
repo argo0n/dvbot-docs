@@ -25,6 +25,9 @@ plugins:
   - redirects:
       redirect_maps:
         'commands': 'commands/fun/fun.md'
+        'commands/fun': 'commands/fun/fun.md'
+        'commands/utility': 'commands/utility/utility.md'
+        'commands/mod': 'commands/mod/moderation.md'
   - git-revision-date
 repo_url: https://github.com/argo0n/dvbot-docs
 repo_name: argo0n/dvbot-docs
@@ -48,3 +51,5 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - tables
+
+edit_uri: ""

@@ -112,6 +112,16 @@ you bad bad (but it's a man)
 
     * `member`: the member who is misbehaving
 
+## `what`
+
+*sancturary guardian music plays*
+
+!!! tip "Usage"
+
+    `what [member]`
+
+    * `member`: WHAT
+
 ## `spam`
 
 Shows you images of spam (the food)
