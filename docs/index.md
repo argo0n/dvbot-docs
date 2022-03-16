@@ -12,4 +12,6 @@
 
 Join Dank Vibes to exprience the bot in all its entirety!
 
-[Join Dank Vibes! (this will NOT open a new tab.)](https://discord.gg/dankmemer){ .md-button .md-button--primary}
+Dank Vibes Bot **cannot** be invited to another server.
+
+[Join Dank Vibes!](https://discord.gg/dankmemer){ .md-button .md-button--primary}
