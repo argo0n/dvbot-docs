@@ -6,6 +6,8 @@ Most, if not all of these prefixed commands also exist as [Slash commands](../sl
 
 ## `goeatpoop`
 
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#goeatpoop)
+
 Get someone to eat poop
 
 ![goeatpoop example](../images/imgen/goeatpoop.png){ width="500" }
@@ -17,6 +19,8 @@ Get someone to eat poop
     * `member`: The member who you want to eat poop
 
 ## `stank`
+
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#stank)
 
 Someone's too stanky in here.
 
@@ -30,6 +34,8 @@ Someone's too stanky in here.
 
 ## `audacity`
 
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#audacity)
+
 The Lion, The Witch, and the Audacity of-
 
 ![audacity example](../images/imgen/audacity.png){ width="500" }
@@ -41,6 +47,8 @@ The Lion, The Witch, and the Audacity of-
     * `member`: The member who is being a b-
 
 ## `annoy`
+
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#annoy)
 
 Generate an image of someone being annoying in your DMs.
 
@@ -54,6 +62,8 @@ Generate an image of someone being annoying in your DMs.
 
 ## `captcha`
 
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#captcha)
+
 Generate a reCAPTCHA button with the specified text.
 
 ![captcha example](../images/imgen/captcha.png){ width="500" }
@@ -65,6 +75,8 @@ Generate a reCAPTCHA button with the specified text.
     * `text`: The text to show beside the recaptcha button.
 
 ## `didyoumean`
+
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#didyoumean)
 
 Google's Did You Mean can be really fuzzy sometimes.
 
@@ -78,6 +90,8 @@ Google's Did You Mean can be really fuzzy sometimes.
 
 ## `drake`
 
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#drake)
+
 I don't really know how to explain this meme... It's just the drake hotline bling meme thing
 
 ![drake example](../images/imgen/drake.png){ width="500" }
@@ -89,6 +103,8 @@ I don't really know how to explain this meme... It's just the drake hotline blin
     * `text`: The text to show. It should be two phrases separated by a `,`.
 
 ## `fact`
+
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#fact)
 
 IT IS A FACT!!!
 
@@ -102,6 +118,8 @@ IT IS A FACT!!!
 
 ## `bad`
 
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#bad)
+
 you bad bad (but it's a man)
 
 ![bad example](../images/imgen/bad.png){ width="500" }
@@ -114,6 +132,8 @@ you bad bad (but it's a man)
 
 ## `what`
 
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#what)
+
 *sancturary guardian music plays*
 
 !!! tip "Usage"
@@ -123,6 +143,8 @@ you bad bad (but it's a man)
     * `member`: WHAT
 
 ## `spam`
+
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#spam)
 
 Shows you images of spam (the food)
 

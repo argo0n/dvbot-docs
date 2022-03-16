@@ -17,6 +17,8 @@ Fight a user, and you or them might get muted between 20 to 120 seconds, dependi
 
 ## `hideping`
 
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands.md#/hideping)
+
 Secretly ping someone with this command! Using this command will delete your message, and ping your target with an anonymous webhook, plus hiding the ping (for iOS, Desktop and Web users only).
 
 !!! tip "Usage"
