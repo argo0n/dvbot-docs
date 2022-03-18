@@ -135,3 +135,17 @@ Shows you images of spam (the food)
 !!! tip "Usage"
 
     `/spam`
+
+## `/spoiler`
+
+Adds a fake spoiler tag to a photo that you sent, including blurring it.
+
+!!! tip "Usage"
+
+    `/spoiler <member> <link> <attachment>`
+
+    * `member`: The member whom you want to add the spoiler tag to their profile picture.
+    * `link`: The link to the image you want to add the spoiler tag to.
+    * `attachment`: The attachment that you want to add the spoiler tag to.
+
+    **Only send one of these arguments!!** For example: If you add a `member`, do not add a `link` or `attachment`.

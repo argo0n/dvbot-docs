@@ -136,6 +136,8 @@ you bad bad (but it's a man)
 
 *sancturary guardian music plays*
 
+![what example](../images/imgen/what.png){ width="500" }
+
 !!! tip "Usage"
 
     `what [member]`
@@ -151,3 +153,20 @@ Shows you images of spam (the food)
 !!! tip "Usage"
 
     `spam`
+
+## `spoiler`
+
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#spoiler)
+
+Adds a fake spoiler tag to a photo that you sent, including blurring it.
+
+![spoiler example](../images/imgen/spoiler.png){ width="500" }
+
+!!! tip "Usage"
+
+    `spoiler [argument]`
+    * `argument`: Can be an: 
+        * Attachment
+        * Emoji (not recommended)
+        * Image URL or
+        * A user (to get their profile picture)
