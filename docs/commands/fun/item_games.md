@@ -69,3 +69,12 @@ Get information about an item.
     `inventory info <item>`
 
     * `item`: The item you'd like to get information about.
+
+## `active`
+
+See the current active effects caused by items you used!
+
+!!! tip "Usage"
+
+    `active`
+
