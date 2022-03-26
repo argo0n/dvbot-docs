@@ -107,6 +107,23 @@ Shows you details about a reminder and when it ends.
 
 **Aliases**: `when`, `details`
 
+## `remind repeat`
+
+Repeats/loops a reminder, making it reoccuring with a set interval
+
+If no interval is provided, the reminder will repeat based on its original duration.
+
+To stop a reminder from repeating, use `remind repeat [id] -1`. 
+
+!!! tip "Usage"
+
+    `remind repeat [reminder_id] <interval>`
+
+    * `reminder_id` The ID of the reminder you want it to repeat.
+    * `interval` The interval at which you'll be reminded about the specified reminder again. Enter `-1` if you want the reminder to stop repeating.
+
+**Aliases**: `loop`
+
 ## `remind subscribe`
 
 Copy another person's reminder and make it your own!
