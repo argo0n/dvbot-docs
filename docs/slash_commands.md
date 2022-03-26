@@ -149,3 +149,26 @@ Adds a fake spoiler tag to a photo that you sent, including blurring it.
     * `attachment`: The attachment that you want to add the spoiler tag to.
 
     **Only send one of these arguments!!** For example: If you add a `member`, do not add a `link` or `attachment`.
+
+## `/find`
+
+Find a entity in the server, be it a member, role or channel.
+
+This makes use of Discord's ability to autocomplete when finding such objects.
+
+When entering a object, its name, ID (and mention, if applicable) will be sent.
+
+!!! tip "Usage"
+
+    `/find <user> <role> <text_chanel> <voice_channel> <category_channel> <stage_channel>`
+
+    * `user`: The user you want to find.
+    * `role`: The role you want to find.
+    * `text_chanel`: The text channel you want to find.
+    * `voice_channel`: The voice channel you want to find.
+    * `category_channel`: The category channel you want to find.
+    * `stage_channel`: The stage channel you want to find.
+
+    At least one of these arguments must be provided.
+
+
