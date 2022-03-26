@@ -10,6 +10,10 @@ Separately, to ensure efficiency, if the ticket creator only says "hi", Dank Vib
 
     Censor functions in Dank Vibes Bot are only for moderating output such as [`hideping`](../../fun/fun/#hideping), [`nick`](../../fun/fun/#nickbet) and [`dm`](../../fun/fun/#dm). 
 
+!!! warning
+
+    Certain moderation commands are not shown in this documentation, use the help command to see all the available commands.
+
 ## `getraw`
 
 Gets the raw content of a message.
@@ -20,44 +24,6 @@ Gets the raw content of a message.
 
     * `message_id`: The ID of the message which you want to get the raw content of.
     * `channel`: The channel of the message, if it was sent in another channel (not the one you're in).
-
-## `censor`
-
-Censor a word or phrase.
-
-To view the list of censored words, use [`censor list`](#censor-list).
-
-To remove a censored word, use [`censor remove`](#censor-remove).
-
-!!! tip "Usage"
-
-    `censor [phrase]`
-
-    * `phrase`: Phrase to be censored.
-
-**Aliases**: `censor add`
-
-## `censor list`
-
-List all censored/blacklisted words.
-
-!!! danger
-
-    Do not run this in a public channel.
-
-!!! tip "Usage"
-    
-    `censor list`
-
-## `censor remove`
-
-Remove a word or phrase from the censor list.
-
-!!! tip "Usage"
-
-    `censor remove [phrase]`
-
-    * `phrase`: Phrase to be removed from the censor list.
 
 ## `lockdown start`
 
@@ -157,33 +123,6 @@ To view the message for a lockdown profile, just use the command without a messa
     * `name`: Name of the lockdown profile.
     * `message`: The message to be sent when a lockdown starts or ends. To see the current message set, do not specify a message.
 
-
-## `list`
-
-List roles, users or channels by providing their IDs using this command! This command won't ping any users or roles.
-
-!!! tip "Usage"
-
-    `list [list_type] [things_to_list]`
-
-    * `list_type`: The type of list you'd like to see. It can be `member/user`, `role`, or `channel`.
-
-    * `things_to_list`: The IDs you'd like to list. It should be user, role or channel IDs separated by spaces, or newlines.
-
-## `screenshot`
-
-Gets the screenshot of a website. Any website can be specified.
-
-You are not allowed to use this command to get private information about the bot, such as IP addresses, locations, and the bot's server's specifications. Doing so will result in a command blacklist.
-
-!!! tip "Usage"
-
-    `screenshot [website]`
-
-    * `website`: The website link you'd like to get the screenshot of.
-
-**Aliases**: `ss`
-
 ## `self`
 
 Sends a message showing 6 self roles which can be obtained via buttons.
@@ -205,21 +144,13 @@ Checks and shows the private chanenls that a member has access to.
 
 !!! warning
 
-    This is only for higher-ups. To see the members in your own private channel, use [`pvc`](../../utility/#pvc)
+    This is only for higher-ups. To see the members in your own private channel, use [`pvc`](../../utility/#checkpvc)
 
 !!! tip "Usage"
 
     `memberpvc <member>`
 
     * `member`: Member to check. If no member is specified it will show the channels you have access to.
-
-## `dhvt`
-
-No description provided.
-
-!!! tip "Usage"
-
-    `dhvt`
 
 ## `role`
 
@@ -242,57 +173,3 @@ Change a role's icon.
 
     * `role`: The role to change the icon of.
     * `argument`: The argument to change the icon to. It can be a Unicode Emoji, Custom Emoji, Attachment or URL to an image. 
-
-## `role removeall`
-
-Remove a specific role from everyone who has it.
-
-!!! tip "Usage"
-
-    `role removeall [role]`
-
-    * `role`: The role to remove from everyone.
-
-**Aliases**: `rall`
-
-## `sticky resetlist`
-
-Resets the queue that contains channels for sticky messages. This fixes a bug caused by improper API handling by Discord.
-
-!!! tip "Usage"
-
-    `sticky resetlist`
-
-## `sticky create`
-
-Creates a sticky message for the specified channel. Only one sticky message can be created for one channel.
-
-To add an embed as a message, add it in the form of a JSON code which you can get from [Carl-bot's dashboard](https://carl.gg/dashboard/595457764935991326/embeds).
-
-!!! tip "Usage"
-
-    `sticky create [channel] [message]`
-
-    * `channel`: The channel to create the sticky message in.
-    * `message`: The message to be sent as a sticky message.
-
-**Aliases**: `add`
-
-## `sticky remove`
-
-Removes a sticky message from the specified channel.
-
-!!! tip "Usage"
-
-    `sticky remove [channel]`
-
-    * `channel`: The channel to remove the sticky message from.
-
-## `sticky view`
-
-Shows all active sticky messages in the server.
-
-!!! tip "Usage"
-
-    `sticky view`
-
