@@ -94,7 +94,9 @@ Sets a channel's slowmode.
     `slowmode <channel> [duration]`
 
     * `channel`: Channel to set the slowmode of. If no channel is specified, the channel you used the command in will have its slowmode changed.
-    * `duration`: Duration of slowmode, cannot be longer than 6 hours.## `roleinfo`
+    * `duration`: Duration of slowmode, cannot be longer than 6 hours.
+    
+## `roleinfo`
 
 Provides information about a role, including its position, number of members, color, and its role icon.
 
