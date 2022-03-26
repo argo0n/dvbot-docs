@@ -18,7 +18,7 @@ Request a nickname.
 
 Creates an interactive poll.
 
-![poll example](../../images/poll.png) { width=500 }
+![poll example](../../images/poll.png){ width=700 }
 
 !!! tip "Usage"
 
