@@ -42,7 +42,7 @@ extra:
       link: https://github.com/argo0n
       name: argo0n - GitHub
 
-copyright: Copyright &copy; 2022 Argon
+copyright: Copyright &copy; 2022 Argon / Dank Vibes
 
 markdown_extensions:
   - attr_list
