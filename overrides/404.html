@@ -195,9 +195,27 @@
     } else {
       var time_indicator = "AM"
     }
-    var dt_obj = "Today at " + hour + ":" + date_now.getMinutes() + " " + time_indicator
+    var dt_minutes = date_now.getMinutes()
+    if (dt_minutes < 10) {
+      var minutes = "0" + dt_minutes
+    } else {
+      var minutes = dt_minutes
+    }
+    var dt_obj = "Today at " + hour + ":" + minutes + " " + time_indicator
   } else {
-    var dt_obj = "Today at " + date_now.getHours() + ":" + date_now.getMinutes()
+    dt_hours = date_now.getHours()
+    if (dt_hours < 10) {
+      var hours = "0" + dt_hours
+    } else {
+      var hours = dt_hours
+    }
+    dt_minutes = date_now.getMinutes()
+    if (dt_minutes < 10) {
+      var minutes = "0" + dt_minutes
+    } else {
+      var minutes = dt_minutes
+    }
+    var dt_obj = "Today at " + hours + ":" + minutes
   }
   document.getElementById("date_placement").innerHTML = dt_obj
   </script>
