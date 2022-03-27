@@ -141,7 +141,7 @@
             <span class="discord-author-username">Dank Vibes Bot</span>
             <span class="discord-author-bot-tag"> Bot </span>
           </span>
-          <span class="discord-message-timestamp">03/26/2022</span>
+          <span class="discord-message-timestamp" id="date_placement"></span>
         </div>
         Hey there, I can't find the page you were looking for:<br><b><p id="main_message"></p></b><br>Sorry about that!<br>In the meantime, you can head back to the home page or join Dank Vibes. <!----></p>
         <div class="discord-buttons">
@@ -178,7 +178,29 @@
     </div>
   </div>
 </div>
-<script>document.getElementById("main_message").innerHTML = window.location.href;</script>
+<script>
+  document.getElementById("main_message").innerHTML = window.location.href
+  var date_now = new Date()
+  var hourParts = new Intl.DateTimeFormat(undefined, { hour: 'numeric' }).formatToParts(new Date(2020, 0, 1, 13));
+  if (hourParts[0]['value'] == "1" ) {
+    var is_12_hour = true
+  } else {
+    var is_12_hour = false
+  }
+  if (is_12_hour) {
+    var hour = date_now.getHours() 
+    if (hour > 12) {
+      var time_indicator = "PM"
+      hour = hour - 12
+    } else {
+      var time_indicator = "AM"
+    }
+    var dt_obj = "Today at " + hour + ":" + date_now.getMinutes() + " " + time_indicator
+  } else {
+    var dt_obj = "Today at " + date_now.getHours() + ":" + date_now.getMinutes()
+  }
+  document.getElementById("date_placement").innerHTML = dt_obj
+  </script>
 
 </body>
 </html>
