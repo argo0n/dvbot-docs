@@ -171,4 +171,19 @@ When entering a object, its name, ID (and mention, if applicable) will be sent.
 
     At least one of these arguments must be provided.
 
+## `/giveaway start`
+
+Start a giveaway in the server!
+
+This command is only available as a slash command as it is complicated to parse for different items in a prefixed (text) command.
+
+!!! tip "Usage"
+
+    `/giveaway start [duration] [number_of_winners] [prize]`
+
+    * `duration`: The duration of the giveaway.
+    * `number_of_winners`: The number of winners who can win in the giveaway.
+    * `prize`: The prize of the giveaway.
+
+
 

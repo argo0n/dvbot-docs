@@ -26,22 +26,34 @@ This command does nothing.
 
 ## `giveaway start`
 
+[![also available as a slash](../../assets/slash_command.gif)](../../slash_commands/#giveaway-start)
+
 !!! warning
-    This command is still in development.
+    This command is non-functional, please check the [slash command version](../../slash_commands/#giveaway-start) of it.
 
 **Aliases**: `giveaway s`
 
 ## `giveaway cancel`
 
-!!! warning
-    This command is still in development.
+Cancels a giveaway before it's supposed to be over. No winners will be picked.
+
+!!! tip "Usage"
+
+    `giveaway cancel [message]`
+
+    * `message`: A message link to the giveaway, or a message ID.
 
 **Aliases**: `giveaway c`
 
 ## `giveaway end`
 
-!!! warning
-    This command is still in development.
+Ends a giveaway before it's supposed to be over. Winners will be picked.
+
+!!! tip "Usage"
+
+    `giveaway end [message]`
+
+    * `message`: A message link to the giveaway, or a message ID.
 
 **Aliases**: `giveaway e`
 
@@ -50,9 +62,9 @@ This command does nothing.
 Rerolls the winner for a giveaway.
 
 !!! tip "Usage"
-    `giveaway reroll [message_id] [winners]`
+    `giveaway reroll [message_id] <winners>`
 
-    * `message_id`: The message ID or link of the giveaway.
+    * `message_id`: The message ID or link to the giveaway.
     * `winners`: The number of winners to reroll for the giveaway.
 
 **Aliases**: `giveaway r`
@@ -64,7 +76,7 @@ List active giveaways.
 !!! tip "Usage"
     `giveaway active`
 
-**Aliases**: `giveaway a`
+**Aliases**: `giveaway a`, `giveaway list`, `giveaway l`
 
 ## `giveaway gw`
 
