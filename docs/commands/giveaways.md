@@ -131,3 +131,17 @@ You can choose what you want to edit by selecting the buttons, and following the
     `giveawayconfig edit [channel]`
 
     * `channel`: The channel to edit the profile for.
+
+**Aliases**: `giveawayconfig modify`
+
+## `giveawayconfig remove`
+
+Deletes a channel's existing giveaway profile.
+
+!!! tip "Usage"
+
+    `giveawayconfig delete [channel]`
+
+    * `channel`: The channel to delete the profile for.
+
+**Aliases**: `giveawayconfig remove`, `giveawayconfig delete`
