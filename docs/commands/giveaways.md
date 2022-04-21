@@ -1,8 +1,6 @@
 # Giveaway Utilities
 
-Dank Vibes Bot is a baby in the world of giveaway bots.
-
-This category is in beta development and is highly unstable.
+The giveaway features for Dank Vibes Bot are in beta development.
 
 ## `trophy` 
 
@@ -93,3 +91,43 @@ A command for giveaway staffs.
 ## `giveaway nitro`
 
 A command for giveaway staffs. 
+
+## `giveawayconfig`
+
+Giveaway configurations (or profiles) can be set for specific channels. They are like a template, where in each channel, you can choose roles that can bypass the giveaway requirement, roles that are blacklisted from joining or roles that can gain extra entries from the giveaway. When you start a giveaway, these configurations will be applied to the giveaway automatically.
+
+This command will show you all existing giveaway profiles for various channels in the server.
+
+!!! tip "Usage"
+
+    `giveawayconfig`
+
+**Aliases**: `gwconfig`
+
+## `giveawayconfig add`
+
+Creates a fresh new giveaway profile for a channel.
+
+!!! tip "Usage"
+
+    `giveawayconfig add [channel]`
+
+    * `channel`: The channel to create the profile for.
+
+**Aliases**: `giveawayconfig create`, `giveaway new`
+
+## `giveawayconfig edit`
+
+Edits the giveaway profile for a channel.
+
+Unlike many other bots, there is only one command for editing bypass, blacklist and multi roles all in one go. 
+
+You can choose what you want to edit by selecting the buttons, and following the instructions for adding or removing roles.
+
+![type:video](../../assets/GiveawayConfig.mp4)
+
+!!! tip "Usage"
+
+    `giveawayconfig edit [channel]`
+
+    * `channel`: The channel to edit the profile for.

@@ -177,13 +177,25 @@ Start a giveaway in the server!
 
 This command is only available as a slash command as it is complicated to parse for different items in a prefixed (text) command.
 
+This command will:
+
+- Fetch any existing configs for giveaways.
+- Check if you have a booster role as a requirement, and if so remove any bypass roles.
+- Asks for your confirmation before starting the giveaway.
+
 !!! tip "Usage"
 
-    `/giveaway start [duration] [number_of_winners] [prize]`
+    `/giveaway start [duration] [number_of_winners] [prize] <donor> <message> <required_role> <required_role2> <required_role3>`
 
     * `duration`: The duration of the giveaway.
     * `number_of_winners`: The number of winners who can win in the giveaway.
     * `prize`: The prize of the giveaway.
+    * `donor`: The donor of the giveaway.
+    * `message`: A message that will be displayed as if the donor (or giveaway host) had sent it.
+    * `required_role`: The required role to participate in the giveaway.
+    * `required_role2`: The required role to participate in the giveaway.
+    * `required_role3`: The required role to participate in the giveaway.
+
 
 
 
