@@ -45,3 +45,17 @@ Shows your reminder durations in Discord timestamp format.
     `dankcooldowns`
 
 **Aliases**: `dankcd`, `dcd`
+
+## `dankitems`
+
+This command shows the latest donation values of an item. These values are derived from Dank Memer's trade value, unless it has been manually overwritten by an admin.
+
+!!! tip "Usage"
+
+    `dankitems <item>`
+
+    * `<item>`: The item to show its trade value.
+
+    If you don't specify an item, it will show the trade values for all items.
+
+**Aliases**: `items`
