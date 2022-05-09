@@ -59,3 +59,29 @@ This command shows the latest donation values of an item. These values are deriv
     If you don't specify an item, it will show the trade values for all items.
 
 **Aliases**: `items`
+
+## `dankitems set`
+
+Set the value of a Dank Memer item, overwriting it and preventing it from being updated automatically.
+
+!!! tip "Usage"
+
+    `dankitems set [item] [value]`
+
+    * `item`: The item to set its trade value.
+    * `value`: The value to set it to. If you want to reset the value and make it update with Dank Memer's trade values, set the `value` to `none`.
+
+**Aliases**: `setvalue`
+
+## `itemcalc`
+
+Calculates the total donation value of a bunch of items. 
+
+!!! tip "Usage"
+
+    `itemcalc <number of items> [item] <number of items> [item]`
+
+    * `number of items`: The number of items to calculate the value of. This can be left out, and Dank Vibes Bot will interpret it as **one** item.
+    * `item`: The item to calculate the value of. This is compulsory.
+
+**Aliases**: `ic`
