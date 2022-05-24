@@ -1,6 +1,6 @@
 # Home
 
-* [Commands](commands/fun/fun)
+* [Commands](commands/fun)
 * [Slash commands](slash_commands)
 * [Other Features](others)
 * [About Dank Vibes Bot](about)

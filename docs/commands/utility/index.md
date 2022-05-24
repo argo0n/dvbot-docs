@@ -1,4 +1,4 @@
-## Utility
+# Utility
 
 In addition to utility commands, Dank Vibes Bot also adds and remove roles automatically from users participating in a Last to Leave VC.
 

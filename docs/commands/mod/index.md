@@ -1,6 +1,6 @@
 # Moderation
 
-For moderation tools, click [here](../tools)
+For moderation tools, click [here](../mod/tools)
 
 ## `cleanup`
 
