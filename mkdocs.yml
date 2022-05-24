@@ -29,6 +29,8 @@ plugins:
         'commands/fun': 'commands/fun/fun.md'
         'commands/utility': 'commands/utility/utility.md'
         'commands/mod': 'commands/mod/moderation.md'
+        'terms': 'legal/terms.md'
+        'privacy': 'legal/privacy.md'
   - git-revision-date
 repo_url: https://github.com/argo0n/dvbot-docs
 repo_name: argo0n/dvbot-docs
