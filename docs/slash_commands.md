@@ -185,7 +185,7 @@ This command will:
 
 !!! tip "Usage"
 
-    `/giveaway start [duration] [prize] <number_of_winners> <donor> <message> <required_role> <required_role2> <required_role3>`
+    `/giveaway start [duration] [prize] <number_of_winners> <donor> <message> <required_role> <required_role2> <required_role3> <amari_level> <amari_weekly_xp> <channel>`
 
     * `duration`: The duration of the giveaway.
     * `prize`: The prize of the giveaway.
@@ -195,4 +195,6 @@ This command will:
     * `required_role`: The required role to participate in the giveaway.
     * `required_role2`: The required role to participate in the giveaway.
     * `required_role3`: The required role to participate in the giveaway.
+    * `amari_level`: The Amari level required to participate in the giveaway.
+    * `amari_weekly_xp`: The Amari Weekly XP required to participate in the giveaway.
     * `channel`: The channel in which the giveaway will be held.
