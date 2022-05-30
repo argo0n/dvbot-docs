@@ -8,7 +8,7 @@ At Dank Vibes Bot ("The Bot", "we", "us", "our"), accessible from the Discord pl
 
 This document entails the privacy policy and agreeement that you accept when using Dank Vibes Bot, or being in a server with Dank Vibes Bot. It contains types of information that is collected and recorded by Dank Vibes Bot and how we use it. Use of the this document does not supersede the [Developer Terms of Service](https://discordapp.com/developers/docs/legal). We do not have a privacy policy for this website, as this website is static and does not collect **__any__** data at all.
 
-**Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at [dankvibes@nogra.me](mailto:dankvibes@nogra.me?subject=Privacy%20Policy%20Queries), or by opening a ticket in the [Dank Vibes Discord Server](https://discord.gg/dankmemer).
+**Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at [dankvibes@nogra.xyz](mailto:dankvibes@nogra.xyz?subject=Privacy%20Policy%20Queries), or by opening a ticket in the [Dank Vibes Discord Server](https://discord.gg/dankmemer).
 
 
 
@@ -19,7 +19,7 @@ This summary provides key points from our privacy notice, but you can find out m
 
 ## Information we collect
 
-We do not collect any information from [Dank Vibes Bot Documentation](https://docs.dvbot.nogra.me)/. We do collect data with Dank Vibes Bot. However, we only collect necessary data when you use The Bot and/or when you're in a server with The Bot. 
+We do not collect any information from [Dank Vibes Bot Documentation](https://docs.dvbot.nogra.xyz)/. We do collect data with Dank Vibes Bot. However, we only collect necessary data when you use The Bot and/or when you're in a server with The Bot. 
 
 The following data unique to you is collected by the Bot when you use The Bot or when you're in a server with The Bot:
 
@@ -81,7 +81,7 @@ Access to Data is only permitted to The Bot's developers, and only in the scope 
 
 ## Data Removal
 
-Manual removal of your user data can be requested through email at [dankvibes@nogra.me](mailto:dankvibes@nogra.me?subject=Removal%20Of%20My%20Dank%20Vibes%20Bot%20Data), or by opening a ticket in the [Dank Vibes Discord Server](https://discord.gg/dankmemer).
+Manual removal of your user data can be requested through email at [dankvibes@nogra.xyz](mailto:dankvibes@nogra.xyz?subject=Removal%20Of%20My%20Dank%20Vibes%20Bot%20Data), or by opening a ticket in the [Dank Vibes Discord Server](https://discord.gg/dankmemer).
 All data containing any information that can link that data to you, or your Discord Account, will be removed, except in the case where removing it will affect The Bot's ability to function.
 
 You will be asked to provide proof that the account belongs to you. Without enough proof, we cannot proceed with the removal of your data.

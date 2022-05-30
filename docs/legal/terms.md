@@ -84,6 +84,6 @@ Any claim related to The Developer or Dank Vibes Bot shall be governed by the la
 
 ## Contact
 
-People may get in contact through e-mail at [dankvibes@nogra.me](mailto:dankvibes@nogra.me), or through a support ticket in the [Dank Vibes Discord Server]().
+People may get in contact through e-mail at [dankvibes@nogra.xyz](mailto:dankvibes@nogra.xyz), or through a support ticket in the [Dank Vibes Discord Server]().
 
 Other ways of support may be provided but are not guaranteed.
