@@ -1,0 +1,1758 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/rounded.ico">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.16">
+    
+    
+      
+        <title>Utility - Dank Vibes Bot Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1c3799f8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cc9b2e1e.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#utility" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Dank Vibes Bot Documentation" class="md-header__button md-logo" aria-label="Dank Vibes Bot Documentation" data-md-component="logo">
+      
+  <img src="../../assets/rounded.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dank Vibes Bot Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Utility
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/argo0n/dvbot-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    argo0n/dvbot-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../about/" class="md-tabs__link">
+      About
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../others/" class="md-tabs__link">
+      Other Features
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../slash_commands/" class="md-tabs__link">
+      Slash Commands
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../admin/" class="md-tabs__link md-tabs__link--active">
+        Commands
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../legal/" class="md-tabs__link">
+        Legal
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Dank Vibes Bot Documentation" class="md-nav__button md-logo" aria-label="Dank Vibes Bot Documentation" data-md-component="logo">
+      
+  <img src="../../assets/rounded.png" alt="logo">
+
+    </a>
+    Dank Vibes Bot Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/argo0n/dvbot-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    argo0n/dvbot-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../others/" class="md-nav__link">
+        Other Features
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slash_commands/" class="md-nav__link">
+        Slash Commands
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Commands
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Commands" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Commands
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin/" class="md-nav__link">
+        Admin Utilities
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../banbattle/" class="md-nav__link">
+        Ban Battle Configuration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dev/" class="md-nav__link">
+        Developer Utilities
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../donations/" class="md-nav__link">
+        Donation Utilities
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../giveaways/" class="md-nav__link">
+        Giveaway Utilities
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grinder/" class="md-nav__link">
+        Grinder Utilities
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../help/" class="md-nav__link">
+        Help
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../imgen/" class="md-nav__link">
+        Image Generation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../owo/" class="md-nav__link">
+        OwO Utilities
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../votetracker/" class="md-nav__link">
+        Vote Tracker
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_11" type="checkbox" id="__nav_5_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_11">
+          Dankmemer
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Dankmemer" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_11">
+          <span class="md-nav__icon md-icon"></span>
+          Dankmemer
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dankmemer/" class="md-nav__link">
+        Dank Memer Utilities
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dankmemer/lottery/" class="md-nav__link">
+        Lottery Management
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_12" type="checkbox" id="__nav_5_12" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_12">
+          Fun
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Fun" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_12">
+          <span class="md-nav__icon md-icon"></span>
+          Fun
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fun/" class="md-nav__link">
+        Fun
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fun/item_games/" class="md-nav__link">
+        Item Games
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_13" type="checkbox" id="__nav_5_13" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_13">
+          Mod
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Mod" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_13">
+          <span class="md-nav__icon md-icon"></span>
+          Mod
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mod/" class="md-nav__link">
+        Moderation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mod/tools/" class="md-nav__link">
+        Tools
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_14" type="checkbox" id="__nav_5_14" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_14">
+          Utility
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Utility" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_14">
+          <span class="md-nav__icon md-icon"></span>
+          Utility
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Utility
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Utility
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#nick" class="md-nav__link">
+    nick
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#poll" class="md-nav__link">
+    poll
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind" class="md-nav__link">
+    remind
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-list" class="md-nav__link">
+    remind list
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-delete" class="md-nav__link">
+    remind delete
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-clear" class="md-nav__link">
+    remind clear
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-when" class="md-nav__link">
+    remind when
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-repeat" class="md-nav__link">
+    remind repeat
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-subscribe" class="md-nav__link">
+    remind subscribe
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-import" class="md-nav__link">
+    remind import
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggest" class="md-nav__link">
+    suggest
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleport" class="md-nav__link">
+    teleport
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleport-add" class="md-nav__link">
+    teleport add
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleport-remove" class="md-nav__link">
+    teleport remove
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleport-list" class="md-nav__link">
+    teleport list
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleport-clear" class="md-nav__link">
+    teleport clear
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#translate" class="md-nav__link">
+    translate
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#translate-languages" class="md-nav__link">
+    translate languages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uptime" class="md-nav__link">
+    uptime
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ping" class="md-nav__link">
+    ping
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prefix" class="md-nav__link">
+    prefix
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#info" class="md-nav__link">
+    info
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checkpvc" class="md-nav__link">
+    checkpvc
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mymessages" class="md-nav__link">
+    mymessages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cooldowns" class="md-nav__link">
+    cooldowns
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#invite" class="md-nav__link">
+    invite
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timer" class="md-nav__link">
+    timer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#avatar" class="md-nav__link">
+    avatar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whois" class="md-nav__link">
+    whois
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="autoreaction/" class="md-nav__link">
+        Auto Reactions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="highlights/" class="md-nav__link">
+        Highlights
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Legal
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Legal" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Legal
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legal/" class="md-nav__link">
+        Legal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legal/privacy/" class="md-nav__link">
+        Privacy Policy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legal/terms/" class="md-nav__link">
+        Dank Vibes Bot's Terms of Service
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#nick" class="md-nav__link">
+    nick
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#poll" class="md-nav__link">
+    poll
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind" class="md-nav__link">
+    remind
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-list" class="md-nav__link">
+    remind list
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-delete" class="md-nav__link">
+    remind delete
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-clear" class="md-nav__link">
+    remind clear
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-when" class="md-nav__link">
+    remind when
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-repeat" class="md-nav__link">
+    remind repeat
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-subscribe" class="md-nav__link">
+    remind subscribe
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remind-import" class="md-nav__link">
+    remind import
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggest" class="md-nav__link">
+    suggest
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleport" class="md-nav__link">
+    teleport
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleport-add" class="md-nav__link">
+    teleport add
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleport-remove" class="md-nav__link">
+    teleport remove
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleport-list" class="md-nav__link">
+    teleport list
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleport-clear" class="md-nav__link">
+    teleport clear
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#translate" class="md-nav__link">
+    translate
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#translate-languages" class="md-nav__link">
+    translate languages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uptime" class="md-nav__link">
+    uptime
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ping" class="md-nav__link">
+    ping
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prefix" class="md-nav__link">
+    prefix
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#info" class="md-nav__link">
+    info
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checkpvc" class="md-nav__link">
+    checkpvc
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mymessages" class="md-nav__link">
+    mymessages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cooldowns" class="md-nav__link">
+    cooldowns
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#invite" class="md-nav__link">
+    invite
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timer" class="md-nav__link">
+    timer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#avatar" class="md-nav__link">
+    avatar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whois" class="md-nav__link">
+    whois
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="utility">Utility</h1>
+<p>In addition to utility commands, Dank Vibes Bot also adds and remove roles automatically from users participating in a Last to Leave VC.</p>
+<h2 id="nick"><code>nick</code></h2>
+<p>Request a nickname.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>nick [nickname]</code></p>
+<ul>
+<li><code>nickname</code>: The nickname that you want.</li>
+</ul>
+</div>
+<p><strong>Aliases</strong>: <code>requestnick</code>, <code>setnick</code></p>
+<h2 id="poll"><code>poll</code></h2>
+<p>Creates an interactive poll.</p>
+<p><img alt="poll example" src="../../images/poll.png" width="700" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>poll [question_and_choices]</code></p>
+<p>The <code>question_and_choices</code> should be in this format:</p>
+<p><code>question | option 1 | option 2 (optional) | option 3 (optional) | option4 (optional) | option5 (optional)</code></p>
+<p>There can only be a 'maximum of 5 options, and none of them can be similar.</p>
+<p>The options can be separated by a pipe (<code>|</code>) or a comma (<code>,</code>).</p>
+<p>Example: If I wanted to ask if Almond was sussy or Minty was, I would use:</p>
+<blockquote>
+<p><code>dv.poll Who is sussy? | Almond | Minty</code></p>
+</blockquote>
+<p>This will result in a poll with the question "Who is sussy?" and "Almond" and "Minty" as the options.</p>
+<p>A question can only have a maximum of 100 characters.</p>
+<p>An option can only have a maximum of 30 characters.</p>
+</div>
+<h2 id="remind"><code>remind</code></h2>
+<p>Reminds you of something after a certain amount of time. </p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>remind [duration] [what_to_remind]</code></p>
+<ul>
+<li>
+<p><code>duration</code>: Any direct date or a human readable duration. Examples:</p>
+<ul>
+<li><code>next thursday at 3pm</code></li>
+<li><code>2d</code></li>
+<li><code>in 3 days</code></li>
+</ul>
+</li>
+<li>
+<p><code>what_to_remind</code>: The thing you want to be reminded of.</p>
+</li>
+</ul>
+</div>
+<p><strong>Aliases</strong>: <code>reminder</code>, <code>remindme</code>, <code>rm</code></p>
+<h2 id="remind-list"><code>remind list</code></h2>
+<p>Lists all of your reminders.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>remind list</code></p>
+</div>
+<p><strong>Aliases</strong>: <code>mine</code>, <code>show</code>, <code>display</code></p>
+<h2 id="remind-delete"><code>remind delete</code></h2>
+<p>Deletes a reminder.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>remind delete [reminder_id]</code></p>
+<ul>
+<li><code>reminder_id</code>: The ID of the reminder you want to delete.</li>
+</ul>
+</div>
+<p><strong>Aliases</strong>: <code>remove</code>, <code>del</code>, <code>rm</code></p>
+<h2 id="remind-clear"><code>remind clear</code></h2>
+<p>Completely clears your reminder list.</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>This action cannot be reversed! </p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>remind clear</code></p>
+<p><strong>Aliases</strong>: <code>clean</code>, <code>purge</code>, <code>reset</code></p>
+</div>
+<h2 id="remind-when"><code>remind when</code></h2>
+<p>Shows you details about a reminder and when it ends.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>remind when [reminder_id]</code></p>
+<ul>
+<li><code>reminder_id</code>: The ID of the reminder you want to check.</li>
+</ul>
+</div>
+<p><strong>Aliases</strong>: <code>when</code>, <code>details</code></p>
+<h2 id="remind-repeat"><code>remind repeat</code></h2>
+<p>Repeats/loops a reminder, making it reoccuring with a set interval</p>
+<p>If no interval is provided, the reminder will repeat based on its original duration.</p>
+<p>To stop a reminder from repeating, use <code>remind repeat [id] -1</code>. </p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>remind repeat [reminder_id] &lt;interval&gt;</code></p>
+<ul>
+<li><code>reminder_id</code> The ID of the reminder you want it to repeat.</li>
+<li><code>interval</code> The interval at which you'll be reminded about the specified reminder again. Enter <code>-1</code> if you want the reminder to stop repeating.</li>
+</ul>
+</div>
+<p><strong>Aliases</strong>: <code>loop</code></p>
+<h2 id="remind-subscribe"><code>remind subscribe</code></h2>
+<p>Copy another person's reminder and make it your own!</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>remind subscribe [reminder_id]</code></p>
+<ul>
+<li><code>reminder_id</code>: The ID of the reminder you want to copy.</li>
+</ul>
+</div>
+<p><strong>Aliases</strong>: <code>sub</code>, <code>clone</code></p>
+<h2 id="remind-import"><code>remind import</code></h2>
+<p>Import your reminders from Carl-bot.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>remind import</code></p>
+<p>Dank Vibes Bot will then bring you through an interactive and easy setup to move your highlight settings from Carl-bot to Dank Vibes Bot.</p>
+</div>
+<h2 id="suggest"><code>suggest</code></h2>
+<p>Suggest a feature for Dank Vibes Bot.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>suggest [feature]</code></p>
+<ul>
+<li><code>feature</code>: The feature you want to suggest.</li>
+</ul>
+</div>
+<h2 id="teleport"><code>teleport</code></h2>
+<p>Teleport to a channel via a saved checkpoint.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>teleport [checkpoint]</code></p>
+</div>
+<ul>
+<li><code>checkpoint</code>: The checkpoint for the channel.</li>
+</ul>
+<p><strong>Aliases</strong>: <code>tp</code></p>
+<h2 id="teleport-add"><code>teleport add</code></h2>
+<p>Adds a channel checkpoint.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>teleport add [checkpoint] [channel]</code></p>
+<ul>
+<li><code>checkpoint</code>: The checkpoint (name) for the channel.</li>
+<li><code>channel</code>: The channel to associate with the checkpoint.</li>
+</ul>
+</div>
+<h2 id="teleport-remove"><code>teleport remove</code></h2>
+<p>Removes a channel checkpoint.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>teleport remove [checkpoint]</code></p>
+<ul>
+<li><code>checkpoint</code>: The checkpoint (name).</li>
+</ul>
+</div>
+<h2 id="teleport-list"><code>teleport list</code></h2>
+<p>Shows all checkpoints and their associated channels.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>teleport list</code></p>
+</div>
+<h2 id="teleport-clear"><code>teleport clear</code></h2>
+<p>Removes all checkpoints.</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>This action cannot be reversed!</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>teleport clear</code></p>
+</div>
+<p><strong>Aliases</strong>: <code>clear</code></p>
+<h2 id="translate"><code>translate</code></h2>
+<p>Translate text up to 1000 characters.</p>
+<p>By default, the text's language is auto-detected then translated into English.</p>
+<p>You can specify a language for the text to be translated into.</p>
+<p>Examples:</p>
+<ul>
+<li><code>dv.translate 永远不会放弃你</code> will detect the text as Chinese and translate it into English.</li>
+<li><code>dv.translate hi 永远不会放弃你</code> will detect the text as Chinese, then translate it into Hindi, returning the result.</li>
+</ul>
+<p>A list of languages available is shown in <a href="#translate-languages"><code>translate languages</code></a>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>translate &lt;language&gt; [text]</code></p>
+<ul>
+<li><code>language</code>: The language to translate the text into, not required.</li>
+<li><code>text</code>: The text to translate.</li>
+</ul>
+</div>
+<p><strong>Aliases</strong>: <code>trans</code>, <code>tl</code></p>
+<h2 id="translate-languages"><code>translate languages</code></h2>
+<p>List all languages that text can be translated into via <a href="#translate">translate</a>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>translate languages</code></p>
+</div>
+<p><strong>Aliases</strong>: <code>langs</code>, `lang</p>
+<h2 id="uptime"><code>uptime</code></h2>
+<p>Shows Dank Vibes Bot's uptime.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>uptime</code></p>
+</div>
+<h2 id="ping"><code>ping</code></h2>
+<p>Shows Dank Vibes Bot's ping and latency.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>ping</code></p>
+</div>
+<h2 id="prefix"><code>prefix</code></h2>
+<p>Change Dank Vibes Bot's prefix for the server.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>prefix [prefix]</code></p>
+<ul>
+<li><code>prefix</code>: The new prefix.</li>
+</ul>
+</div>
+<h2 id="info"><code>info</code></h2>
+<p>Shows Dank Vibes Bot's information.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>info</code></p>
+</div>
+<h2 id="checkpvc"><code>checkpvc</code></h2>
+<p>Check the owner and the members of a private channel (ticket).</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>checkpvc &lt;channel&gt;</code></p>
+<ul>
+<li><code>channel</code>: The channel to check. This is only for moderators. For the public, you can only run this in your own private channel.</li>
+</ul>
+</div>
+<p><strong>Aliases</strong>: <code>pvc</code>, <code>privchannel</code></p>
+<h2 id="mymessages"><code>mymessages</code></h2>
+<p>Shows the number of messages a user has sent in #general-chat. Mainly used for giveaway requirements.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>mymessages [member]</code></p>
+<ul>
+<li><code>member</code>: The member to check.</li>
+</ul>
+</div>
+<p><strong>Aliases</strong>: <code>messagecount</code>, <code>mym</code></p>
+<h2 id="cooldowns"><code>cooldowns</code></h2>
+<p>Shows your active command cooldowns in Dank Vibes Bot.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>cooldowns</code></p>
+</div>
+<p><strong>Aliases</strong>: <code>mycooldowns</code>, <code>cds</code>, <code>mycds</code>, <code>cd</code></p>
+<h2 id="invite"><code>invite</code></h2>
+<p>Invite Dank Vibes Bot to the server!</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>invite</code></p>
+</div>
+<h2 id="timer"><code>timer</code></h2>
+<p>Start a timer to be shown in a message! You can include a title for the timer,a nd a channel for the timer to be sent to.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>timer &lt;channel&gt; [duration] &lt;title&gt;</code></p>
+<ul>
+<li><code>channel</code>: The channel to send the timer to.</li>
+<li><code>duration</code>: The duration of the timer in seconds.</li>
+<li><code>title</code>: The title of the timer.</li>
+</ul>
+</div>
+<h2 id="avatar"><code>avatar</code></h2>
+<p>Shows you or a user's avatar, banner or server banner.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>avatar [user]</code></p>
+<ul>
+<li><code>user</code>: The user to show the avatar of.</li>
+</ul>
+</div>
+<p><strong>Aliases</strong>: <code>av</code>, <code>pfp</code>, <code>banner</code>, <code>bn</code>, <code>sav</code></p>
+<h2 id="whois"><code>whois</code></h2>
+<p>Get information about a user.</p>
+<div class="admonition tip">
+<p class="admonition-title">Usage</p>
+<p><code>whois [user]</code></p>
+</div>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      2022-05-30
+    
+  </small>
+</div>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../mod/tools/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Tools" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Tools
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="autoreaction/" class="md-footer__link md-footer__link--next" aria-label="Next: Auto Reactions" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Auto Reactions
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 Argon / Dank Vibes
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    <a href="https://discord.gg/dankmemer" target="_blank" rel="noopener" title="Dank Vibes - Discord" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541ZM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241Zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241Z"/></svg>
+    </a>
+  
+    
+    
+    <a href="https://github.com/argo0n" target="_blank" rel="noopener" title="argo0n - GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.3a4b43e5.min.js"></script>
+      
+    
+  </body>
+</html>
