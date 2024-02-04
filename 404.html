@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-US" class="dark" crosspilot=""><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<style>
+		:root {
+			--c-bg: #fff;
+		}
+
+		html.dark {
+			--c-bg: #1d1d1d;
+		}
+
+		html, body {
+			background-color: var(--c-bg);
+		}
+	</style>
+	<script>
+		(() => {
+			const { classList } = document.documentElement;
+			const userMode = localStorage.getItem('guide-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+	
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				classList.toggle('dark', true);
+			}
+
+			const themes = ['blurple'];
+			let colorTheme = localStorage.getItem('guide-color-theme');
+
+			if (colorTheme !== 'default' && !themes.includes(colorTheme)) {
+				colorTheme = 'default';
+			}
+
+			if (colorTheme !== 'default') classList.add(`guide-theme-${colorTheme}`);
+		})();
+	</script>
+<style type="text/css">.icon.outbound {
+  position: relative;
+  display: inline-block;
+  color: #aaa;
+  vertical-align: middle;
+  top: -1px;
+}
+
+
+.discord-messages {
+  border-radius: 0.375rem;
+  width: 80%;
+  margin: 5 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.discord-messages .discord-message .discord-message-content .discord-markdown-content > code {
+  color: inherit;
+  font-size: 0.9em;
+  padding: 0.2em;
+  width: 50%;
+  margin: 10 auto;
+}</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+.discord-buttons a.discord-button,.discord-buttons button.discord-button{color:#fff;display:flex;align-items:center;justify-content:center;min-height:32px;min-width:60px;font-size:14px;font-weight:500;font-family:Roboto,sans-serif;line-height:16px;margin:4px 8px 4px 0;padding:2px 16px;border:none;border-radius:3px;box-sizing:border-box;cursor:pointer;transition:background-color .15s ease,color .15s ease}
+.discord-buttons a.discord-button:hover{color:#fff;text-decoration:none}
+.discord-buttons .discord-button.discord-button-success{background-color:#3ba55c}
+.discord-buttons .discord-button:not(.discord-button-disabled).discord-button-success:hover{background-color:#359553}
+.discord-buttons .discord-button .discord-button-emoji{width:19px;height:19px;margin-right:4px}
+.discord-buttons .discord-button.discord-button-primary{background-color:#5865f2}
+.discord-buttons .discord-button:not(.discord-button-disabled).discord-button-primary:hover{background-color:#4752c4}
+.discord-buttons .discord-button.discord-button-link,.discord-buttons .discord-button.discord-button-secondary{background-color:#4f545c}
+.discord-buttons .discord-button:not(.discord-button-disabled).discord-button-link:hover,.discord-buttons .discord-button:not(.discord-button-disabled).discord-button-secondary:hover{background-color:#474c53}
+.discord-light-theme .discord-buttons .discord-button.discord-button-link,.discord-light-theme .discord-buttons .discord-button.discord-button-secondary{background-color:#747f8d}
+.discord-light-theme .discord-buttons .discord-button:not(.discord-button-disabled).discord-button-link:hover,.discord-light-theme .discord-buttons .discord-button:not(.discord-button-disabled).discord-button-secondary:hover{background-color:#68727f}
+.discord-buttons .discord-button.discord-button-disabled,.discord-buttons .discord-button:disabled{opacity:.5;cursor:not-allowed}
+.discord-buttons .discord-button .outbound-link-icon{margin-left:8px;display:inline-flex}
+.discord-buttons{display:flex;flex-wrap:wrap}
+.discord-message .discord-author-info{color:#fff;display:inline-flex;align-items:center;font-size:15px}
+.discord-compact-mode .discord-message .discord-author-info{display:inline-flex;flex-direction:row-reverse}
+.discord-message .discord-author-info .discord-author-username{font-size:1.1em;font-weight:500;letter-spacing:.5px}
+.discord-compact-mode .discord-message .discord-author-info .discord-author-username{margin-left:4px;margin-right:4px}
+.discord-light-theme .discord-message .discord-author-info .discord-author-username{color:#23262a}
+.discord-message .discord-author-info .discord-author-bot-tag{background-color:#5865f2;font-size:.65em;margin-left:5px;padding:3px 4px;border-radius:3px;line-height:100%;text-transform:uppercase}
+.discord-compact-mode .discord-message .discord-author-info .discord-author-bot-tag{margin-left:0;margin-right:5px;padding-left:3px;padding-right:3px;font-size:.6em}
+.discord-light-theme .discord-message .discord-author-info .discord-author-bot-tag{color:#fff}
+.discord-interaction{color:#b9bbbe;display:flex;align-items:center;position:relative;width:100%;font-size:.95em;margin-bottom:4px;padding-left:56px;line-height:150%;box-sizing:border-box}
+.discord-markdown .discord-markdown-content>pre{max-width:90%;margin:.4em 0 0;white-space:pre-wrap;border-radius:4px;box-sizing:border-box}
+.discord-markdown .discord-markdown-content>pre>code{color:#b9bbbe;background-color:#2f3135;display:block;font-size:1em;padding:.5em;border:1px solid #202225;border-radius:4px}
+.discord-light-theme .discord-markdown .discord-markdown-content>pre>code{color:#4f5660;background-color:#f2f3f9;border-color:#e3e5e8}
+.discord-markdown .discord-markdown-content>code{background-color:#2f3136;font-size:.95em;padding:3px;border-radius:3px;white-space:pre-wrap}
+.discord-light-theme .discord-markdown .discord-markdown-content>code{background-color:#f2f3f5}
+.discord-markdown .discord-markdown-content .d-spoiler{color:transparent;background-color:#202225;border-radius:3px;transition:all .1s ease-in-out}
+.discord-light-theme .discord-markdown .discord-markdown-content .d-spoiler{background-color:#b9bbbe}
+.discord-markdown .discord-markdown-content .d-spoiler:hover{color:inherit;background-color:rgba(255,255,255,.1)}
+.discord-light-theme .discord-markdown .discord-markdown-content .d-spoiler:hover{background-color:rgba(0,0,0,.1)}
+.discord-markdown .discord-markdown-content>blockquote{position:relative;margin:0;padding:0 8px 0 16px}
+.discord-markdown .discord-markdown-content>blockquote::before{content:'';background-color:#4f545c;width:4px;position:absolute;top:0;left:0;bottom:0;border-radius:4px}
+.discord-light-theme .discord-markdown .discord-markdown-content>blockquote::before{background-color:#c7ccd1}
+.discord-message{color:#dcddde;display:flex;flex-direction:column;font-size:.9em;margin:1em 0;padding:.25em 1em 0}
+.discord-message:hover{background-color:#32353b}
+.discord-compact-mode .discord-message{margin:.15em 0;padding-left:.25em;padding-right:.25em}
+.discord-light-theme .discord-message{color:#2e3338}
+.discord-light-theme .discord-message:hover{background-color:#fafafa}
+.discord-message a{color:#0096cf;font-weight:400;text-decoration:none}
+.discord-message a:hover{text-decoration:underline}
+.discord-light-theme .discord-message a{color:#00b0f4}
+.discord-message .discord-author-avatar{margin-top:1px;margin-right:16px;min-width:40px}
+.discord-compact-mode .discord-message .discord-author-avatar{display:none}
+.discord-message .discord-author-avatar img{width:40px;height:40px;border-radius:50%}
+.discord-message .discord-message-content{display:flex;width:100%;line-height:160%;font-weight:400;overflow-wrap:anywhere}
+.discord-message .discord-message-content .discord-message-timestamp{color:#72767d;font-size:12px;margin-left:3px}
+.discord-compact-mode .discord-message:hover .discord-message-content .discord-message-timestamp,.discord-compact-mode.discord-light-theme .discord-message:hover .discord-message-content .discord-message-timestamp,.discord-light-theme .discord-message .discord-message-content .discord-message-timestamp{color:#99aab5}
+.discord-compact-mode .discord-message .discord-message-content .discord-message-timestamp{display:inline-block;min-width:48px;font-size:11px;margin-left:0;margin-right:3px;text-align:right}
+.discord-compact-mode.discord-light-theme .discord-message .discord-message-content .discord-message-timestamp{color:#d1d9de}
+.discord-message .discord-message-body{position:relative;width:100%}
+.discord-compact-mode .discord-message-body{margin-left:.25em}
+.discord-message .discord-message-body .discord-message-edited{color:#72767d;font-size:10px;margin-left:3px}
+.discord-message .discord-message-ephemeral-notice{color:#72767d;font-size:12px;margin-top:4px}
+.discord-messages{color:#fff;background-color:#36393e;font-size:16px;font-family:Roboto,sans-serif;line-height:170%;border:1px solid rgba(255,255,255,.05)}
+.discord-messages.discord-light-theme{color:#747f8d;background-color:#f7f7f7;border-color:#dedede}
+</style><style type="text/css">.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 2rem;
+  right: 2.5rem;
+  width: 2rem;
+  height: 1.2rem;
+  background-color: var(--back-to-top-color);
+  z-index: var(--back-to-top-z-index);
+}
+
+</style><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href=""><meta name="theme-color" content="#3eaf7c"><meta name="twitter:card" content="summary"><meta property="og:title" content="Dank Vibes Bot Documentation"><meta property="og:description" content="404 Page Not Found"><meta property="og:type" content="website"><meta property="og:url" content="https://docs.dvbot.nogra.me"><meta property="og:locale" content="en_US"><meta property="og:image" content="/meta-image.png"><title>404 - Dank Vibes Bot Documentation</title><meta name="description" content="404 Page Not Found"><style type="text/css">.theme-options .color-theme-options {
+  display: flex;</style></head>
+
+<div class="discord-messages">
+  <div class="discord-message">
+    <div class="discord-message-content">
+      <div class="discord-author-avatar"><img src="https://cdn.discordapp.com/avatars/866346404573216769/66becd71653f929f79309ab208d8575a.png?size=128" alt=""></div>
+      <div class="discord-message-body">
+        <div>
+          <span class="discord-author-info">
+            <span class="discord-author-username">Dank Vibes Bot</span>
+            <span class="discord-author-bot-tag"> Bot </span>
+          </span>
+          <span class="discord-message-timestamp" id="date_placement"></span>
+        </div>
+        Hey there, I can't find the page you were looking for:<br><b><p id="main_message"></p></b><br>Sorry about that!<br>In the meantime, you can head back to the home page or join Dank Vibes. <!----></p>
+        <div class="discord-buttons">
+          <a class="discord-button discord-button-link" href="https://docs.dvbot.nogra.xyz/" target="_blank" rel="noopener noreferrer">
+            <!---->Back to home page
+            <span class="outbound-link-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15">
+                <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path>
+                <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon>
+              </svg>
+            </span>
+          </a>
+          <a class="discord-button discord-button-success" href="javascript:history.back()" rel="noopener noreferrer">
+            <!---->Go back 
+            <span class="outbound-link-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15">
+                <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path>
+                <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon>
+              </svg>
+            </span>
+          </a>
+          <a class="discord-button discord-button-link" href="https://discord.gg/dankmemer" target="_blank" rel="noopener noreferrer">
+            <!---->Join Dank Vibes
+            <span class="outbound-link-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15">
+                <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path>
+                <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon>
+              </svg>
+            </span>
+          </a>
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  document.getElementById("main_message").innerHTML = window.location.href
+  var date_now = new Date()
+  var hourParts = new Intl.DateTimeFormat(undefined, { hour: 'numeric' }).formatToParts(new Date(2020, 0, 1, 13));
+  if (hourParts[0]['value'] == "1" ) {
+    var is_12_hour = true
+  } else {
+    var is_12_hour = false
+  }
+  if (is_12_hour) {
+    var hour = date_now.getHours() 
+    if (hour > 12) {
+      var time_indicator = "PM"
+      hour = hour - 12
+    } else {
+      var time_indicator = "AM"
+    }
+    var dt_minutes = date_now.getMinutes()
+    if (dt_minutes < 10) {
+      var minutes = "0" + dt_minutes
+    } else {
+      var minutes = dt_minutes
+    }
+    var dt_obj = "Today at " + hour + ":" + minutes + " " + time_indicator
+  } else {
+    dt_hours = date_now.getHours()
+    if (dt_hours < 10) {
+      var hours = "0" + dt_hours
+    } else {
+      var hours = dt_hours
+    }
+    dt_minutes = date_now.getMinutes()
+    if (dt_minutes < 10) {
+      var minutes = "0" + dt_minutes
+    } else {
+      var minutes = dt_minutes
+    }
+    var dt_obj = "Today at " + hours + ":" + minutes
+  }
+  document.getElementById("date_placement").innerHTML = dt_obj
+  </script>
+
+</body>
+</html>
