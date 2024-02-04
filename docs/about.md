@@ -1,8 +1,8 @@
 # About 
 
-Dank Vibes Bot is developed by Rileyyy#0000 and Argon#0002. 
+Dank Vibes Bot is developed by _rileyyy and argon02. 
 
-Dank Vibes Bot Documentation is created by Argon#0002.
+Dank Vibes Bot Documentation is created by argon02.
 
 ## Special Thanks to:
 

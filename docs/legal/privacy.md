@@ -1,6 +1,8 @@
 # Privacy Policy
 
-Effective: May 15, 2022 00:00 UTC
+Last edited: Feb 4, 2024, 23:59 UTC
+
+Effective: Feb 10, 2024, 00:00 UTC
 
 ## Welcome!
 
@@ -19,44 +21,24 @@ This summary provides key points from our privacy notice, but you can find out m
 
 ## Information we collect
 
-We do not collect any information from [Dank Vibes Bot Documentation](https://docs.dvbot.nogra.xyz)/. We do collect data with Dank Vibes Bot. However, we only collect necessary data when you use The Bot and/or when you're in a server with The Bot. 
+At Dank Vibes Bot, the safety of your personal information is important to us, and we are committed to safeguarding your digital data whilst enhancing your user experience. Our data collection protocols are designed to ensure both functionality and privacy, maintaining a harmonious balance between the two. Below is an explanation of the types of information we gather during your interaction with Dank Vibes Bot and the circumstances under which these data exchanges occur.
 
-The following data unique to you is collected by the Bot when you use The Bot or when you're in a server with The Bot:
+### Data We Collect
 
- - Your unique Discord UUID
- - Your Discord username
- - Your Discord discriminator
+**Direct Collection:** In the pursuit of providing a seamless and personalized experience, certain information is collected directly from your interactions with The Bot or your presence in a server where The Bot is operational. This includes, but is not limited to:
 
+- Unique Discord UUID, username, and discriminator for identification and user-specific functionalities.
+- Configuration settings initiated by you or an authorized individual for The Bot's operations within a server.
+- Usage metrics such as command execution, cooldown timings, and custom configurations to enhance service delivery.
+- Information submitted through The Bot's features such as autoreactions, reminders, giveaway participations, and command usage.
+- Data pertinent to server-specific configurations, including Discord Server ID, Text Channel IDs, and any custom server settings.
 
-The following data is collected by the Bot not through a command, but for Moderation purposes:
+**External Services Integration:** With the introduction of our natively developed ban appeal feature, an external service accessible via a designated URL, we extend our data collection to encompass information exchanged through this service. This includes but is not limited to communications involving email, user ID, and other relevant details necessary for the appeal process. The specifics of these exchanges are designed to ensure the integrity of the appeal system while respecting user privacy.
 
-- Your past Discord usernames
-- Your past Discord nicknames in a server.
+**Automated Data Collection:** In our continuous effort to refine user experience, certain information is automatically collected by The Bot. This encompasses:
 
-The other following data is collected by the Bot:
-
-- The Discord Server ID of a server The Bot is in.
-- The Discord Text Channel IDs of said Discord Servers.
-- [Certain messages sent by users in Discord](#how-we-use-your-data)
-- Any server-based configurations that you or someone you allowed to manage The Bot's configurations have set
-
-The following data is collected by The Bot that is provided directly to us, either through commands or through other means:
-
-- Your autoreactions that you have set up.
-- Data collected for recurring services, such as Reminders, Vote Reminders, or Auto-role removal
-- Your Command Usage
-- Your Command Cooldowns
-- Your custom configurations for using The Bot
-- Your DM Requests
-- Your entrants when entering a Giveaway managed by The Bot
-- Your highlights
-- Your OwOs count
-- Your reminders
-
-The list is not exhaustive, and does not include data provided directly to us as part of our Service.
- 
- 
-We do not collect any offsite data off Discord.
+- Interaction data, including but not limited to message logs, for the purpose of providing context-specific responses and services.
+- Engagement metrics to monitor feature utilization and user interaction patterns.
 
 ## How we use your data
 
@@ -128,8 +110,12 @@ We would like to make sure you are fully aware of all of your data protection ri
 
 If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
 
-## Children's Information
+## Children's Online Privacy
 
 Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
 
-Dank Vibes Bot does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information to The Bot, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+Dank Vibes Bot complies with the stipulations set forth by online safety and privacy standards, which include not collecting Personal Identifiable Information (PII) from individuals under the age of 13. This stance is in alignment with Discord's terms of service, which prohibit users under the age of 13 from creating accounts or accessing the platform. 
+
+If it comes to your attention that a child under the age of 13 has provided personal information to The Bot, despite the restrictions placed by Discord, we strongly encourage you to reach out to us without delay. Concurrently, we advise reporting this violation to Discord's moderation team to ensure compliance with their policies.
+
+We are committed to taking swift action to remove any such information from our records and to address any concerns related to the protection of children's privacy on the internet. We are dedicated to working within the framework of legal and ethical guidelines to foster a safe online environment for all users.

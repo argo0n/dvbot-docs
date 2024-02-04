@@ -25,10 +25,6 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        'commands': 'commands/fun/fun.md'
-        'commands/fun': 'commands/fun/fun.md'
-        'commands/utility': 'commands/utility/utility.md'
-        'commands/mod': 'commands/mod/moderation.md'
         'terms': 'legal/terms.md'
         'privacy': 'legal/privacy.md'
   - git-revision-date
@@ -45,7 +41,7 @@ extra:
       link: https://github.com/argo0n
       name: argo0n - GitHub
 
-copyright: Copyright &copy; 2022 Argon / Dank Vibes
+copyright: Copyright &copy; 2024 Argon / Dank Vibes
 
 markdown_extensions:
   - attr_list

@@ -1,6 +1,8 @@
 # Dank Vibes Bot's Terms of Service
 
-Effective: May 15, 2022 00:00 UTC
+Last edited: Feb 4, 2024, 23:59 UTC
+
+Effective: Feb 10, 2024, 00:00 UTC
 
 This page covers the Terms of Service (Terms) of Dank Vibes Bot.
 
@@ -80,7 +82,7 @@ Please read our [Privacy Policy](privacy.md).
 
 ## Governing Law
 
-Any claim related to The Developer or Dank Vibes Bot shall be governed by the laws of sg without regards to its conflict of law provisions.
+Any claim related to The Developer or Dank Vibes Bot shall be governed by the laws of the Republic of Singapore without regards to its conflict of law provisions.
 
 ## Contact
 
